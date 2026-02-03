@@ -56,8 +56,7 @@ Random Forest provided the highest accuracy and was selected as the final model.
 
 ---
 
-## 🖥️ Live Demo
-👉 https://contract-analysis-bot-2n4txumujudqezmshm9mxq.streamlit.app/
+## 🖥️ Live Dem
 
 ---
 
