@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction using Machine Learning
+<img width="1897" height="924" alt="image" src="https://github.com/user-attachments/assets/c129adf6-3c89-42b1-a9dc-62a0cb3387bf" /># 📊 Customer Churn Prediction using Machine Learning
 
 ## 🚀 Overview
 This project predicts customer churn using supervised machine learning to help businesses identify customers who are likely to leave and take preventive actions. The system analyzes customer behavior, service usage, and billing patterns to generate churn predictions with high accuracy.
@@ -57,7 +57,7 @@ Random Forest provided the highest accuracy and was selected as the final model.
 ---
 
 ## 🖥️ Live Demo
-👉 Add your Streamlit deployment link here
+👉 https://contract-analysis-bot-2n4txumujudqezmshm9mxq.streamlit.app/
 
 ---
 
