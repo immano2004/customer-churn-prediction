@@ -1,7 +1,7 @@
 # 📊 Customer Churn Prediction – End-to-End Machine Learning Pipeline
 
-## 🚀 Project Demo
-![Churn Prediction Results](images/churn-demo.png)
+## 🚀 Live Demo
+👉 https://customer-churn-prediction-ibp8stsahffrbxg5uurdzu.streamlit.app/
 
 ---
 
