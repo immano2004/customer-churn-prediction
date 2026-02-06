@@ -1,29 +1,46 @@
-<img width="1897" height="924" alt="image" src="https://github.com/user-attachments/assets/c129adf6-3c89-42b1-a9dc-62a0cb3387bf" /># 📊 Customer Churn Prediction using Machine Learning
+# 📊 Customer Churn Prediction – End-to-End Machine Learning Pipeline
 
-## 🚀 Overview
-This project predicts customer churn using supervised machine learning to help businesses identify customers who are likely to leave and take preventive actions. The system analyzes customer behavior, service usage, and billing patterns to generate churn predictions with high accuracy.
-
----
-
-## 🎯 Problem Statement
-Customer churn directly impacts company revenue. The goal is to build a predictive model that identifies at-risk customers early so retention strategies can be applied.
+## 🚀 Project Demo
+![Churn Prediction Results](images/churn-demo.png)
 
 ---
 
-## 🧠 Solution Workflow
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Model Training & Evaluation
-- Streamlit Web App Deployment
+## 📌 Overview
+Customer churn directly impacts business revenue.  
+This project builds an end-to-end Machine Learning system that predicts whether a customer is likely to leave a telecom service.
+
+The solution helps businesses identify at-risk customers early and take proactive retention actions.
+
+---
+
+## 🎯 Business Objective
+Reduce customer loss by:
+- Predicting churn probability
+- Identifying high-risk customers
+- Supporting data-driven retention strategies
+
+---
+
+## 🧠 Solution Pipeline
+
+1. Data Cleaning & Preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Feature Engineering  
+4. Model Training & Evaluation  
+5. Model Selection  
+6. Streamlit Web App Deployment  
 
 ---
 
 ## ⚙️ Tech Stack
+
+**Languages & Libraries**
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
+
+**Deployment**
 - Streamlit
 
 ---
@@ -32,12 +49,13 @@ Customer churn directly impacts company revenue. The goal is to build a predicti
 - Customer demographics
 - Subscription details
 - Service usage
-- Billing information
-- Churn label (Yes/No)
+- Billing history
+- Churn label (Yes / No)
 
 ---
 
-## 🤖 Machine Learning Models Used
+## 🤖 Models Implemented
+
 - Logistic Regression
 - Decision Tree
 - Random Forest
@@ -45,59 +63,52 @@ Customer churn directly impacts company revenue. The goal is to build a predicti
 
 ---
 
-## 📈 Results
+## 📈 Model Performance
+
 | Model | Accuracy |
 |---------|-----------|
 | Logistic Regression | 84% |
 | Decision Tree | 82% |
-| Random Forest | 88% (Best) |
+| Random Forest | **88% (Best)** |
 
-Random Forest provided the highest accuracy and was selected as the final model.
-
----
-
-## 🖥️ Live Dem
+✅ Random Forest selected as the final production model
 
 ---
 
-## ▶️ How to Run Locally
+## 🖥️ Application Features
 
-### 1. Clone repository
-git clone https://github.com/yourusername/customer-churn-prediction.git
+- Upload new customer dataset
+- Predict churn instantly
+- Compare multiple models
+- Interactive visualizations
+- Export predictions
 
-### 2. Navigate to project
+---
+
+## 🖼️ Screenshots
+
+### Model Performance
+(Add confusion matrix or ROC curve image)
+
+### Web App Interface
+(Add Streamlit app screenshot)
+
+---
+
+## ▶️ Run Locally
+
+```bash
+# Clone repository
+git clone https://github.com/immano2004/customer-churn-prediction
+
+# Move into folder
 cd customer-churn-prediction
 
-### 3. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-### 4. Run Streamlit app
+# Run application
 streamlit run app.py
-
----
-
-## 📊 App Features
-- Upload dataset
-- Predict customer churn
-- Compare models
-- Interactive visualizations
-- Download prediction results
-
----
-
-## 📸 Screenshots
-(Add app screenshots here)
-
----
-
-## 📌 Key Learnings
-- Handling imbalanced datasets
-- Feature engineering techniques
-- Model evaluation metrics (Accuracy, Precision, Recall, F1-score)
-- Building end-to-end ML pipeline
-- Deploying ML apps using Streamlit
-
----
 
 ## 👨‍💻 Author
 Manoj Kumar  
